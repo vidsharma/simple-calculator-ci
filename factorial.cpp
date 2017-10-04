@@ -2,6 +2,7 @@
 #include "catch.hpp"
 
 unsigned int Factorial( unsigned int number ) {
+    if (number == 0) return 1;
     return number <= 1 ? number : Factorial(number-1)*number;
 }
 
