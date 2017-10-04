@@ -30,7 +30,7 @@ before_script:
   - python -V
 
 script:
-  - pip install -e .
+#  - pip install -e .
 #  - py.test -v --cov=./
   - py.test -v
   
