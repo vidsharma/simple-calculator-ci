@@ -23,7 +23,7 @@ install:
   - conda config --set always_yes yes --set changeps1 no
   - conda update -q conda
   - conda info -a
-#  - pip install codecov
+  - pip install codecov
   - conda list
 
 before_script:
@@ -31,13 +31,12 @@ before_script:
 
 script:
 #  - pip install -e .
-#  - py.test -v --cov=./
+  - py.test -v --cov=./
   - g++ factorial.cpp -o factorial
   - ./factorial
-  - py.test -v
   
 after_success:
-# - codecov
+  - codecov
 
 notifications:
   email: false
