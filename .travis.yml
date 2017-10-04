@@ -24,6 +24,7 @@ install:
   - conda update -q conda
   - conda info -a
   - pip install codecov
+  - pip install pytest-cov
   - conda list
 
 before_script:
@@ -31,7 +32,7 @@ before_script:
 
 script:
 #  - pip install -e .
-  - py.test -v 
+  - py.test -v --cov=./
   - g++ factorial.cpp -o factorial
   - ./factorial
   
