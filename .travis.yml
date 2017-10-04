@@ -31,7 +31,7 @@ before_script:
 
 script:
 #  - pip install -e .
-  - py.test -v --cov=calculator.py
+  - py.test -v 
   - g++ factorial.cpp -o factorial
   - ./factorial
   
