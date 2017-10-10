@@ -16,4 +16,4 @@ Simple calculator repository to illustrate the use of github, unit testing and c
 
 [Codecov](https://codecov.io)
 
-Fortran
+Fortran95
