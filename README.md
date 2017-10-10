@@ -9,5 +9,7 @@ Simple calculator repository to illustrate the use of github, unit testing and c
 ## Links
 
 [Catch - for C++ unit testing](https://github.com/philsquared/Catch)
+
 [Travis-CI - Continuous integration](https://travis-ci.org)
+
 [Codecov](https://codecov.io)
