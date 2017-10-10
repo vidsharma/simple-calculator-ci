@@ -2,8 +2,5 @@ comment:
   layout: header, changes, diff
 coverage:
   ignore:
-    - test/.*
-    - setup.py
-    - scf_11/SCF_with_damping.py
   status:
     patch: false
