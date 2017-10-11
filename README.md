@@ -16,4 +16,4 @@ Simple calculator repository to illustrate the use of github, unit testing and c
 
 [Codecov](https://codecov.io)
 
-Fortran95 -- The unit testing for this is still under development.
+Fortran95 -- The unit testing for this is still under development. You are welcome to check out FRUIT.
