@@ -32,7 +32,9 @@ before_script:
 
 script:
 #  - pip install -e .
+  - cd ./python/
   - py.test -v --cov=./
+  - cd ../c++/ 
   - g++ factorial.cpp -o factorial
   - ./factorial
   
